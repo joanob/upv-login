@@ -1,0 +1,39 @@
+body {
+  margin: 10px;
+  width: auto;
+  background-color: #c12a26;
+  color: #fff;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#settings {
+  display: none;
+}
+
+#main svg {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+body button {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#saveSettings {
+  margin-top: 5px;
+  width: 100%;
+}
